@@ -1,0 +1,47 @@
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.box {
+  height: 300px;
+  display: flex;
+  border: 1px solid #ddd;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.a,
+.b {
+  width: 100%;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+}
+
+.a {
+  height: 60px;
+  background: #ff702d;
+}
+
+.b {
+  flex: auto;
+  background: #0087bd;
+  position: relative;
+}
+
+.content {
+  height: 100%;
+}
+
+.scroll {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+  overflow: auto;
+}
+
+.inner {
+  height: 200%;
+}
